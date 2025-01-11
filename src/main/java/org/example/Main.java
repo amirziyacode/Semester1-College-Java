@@ -5,10 +5,18 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-
-
-
+        // "print Square !! "
+        for (int i = 1; i <=4 ; i++) {
+            for (int j = 1; j <=4 ; j++) {
+                if(i == 1 || i == 4 || j == 1 || j == 4) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
 //        int[] nums = new int[] {2,4,3,6,5};
 //        SelectionSort(nums);
 //        System.out.println(Arrays.toString(nums));
@@ -146,9 +154,6 @@ public class Main {
         System.out.println(sum);
         return sum;
     }
-
-
-
  // medium
     public static int[] check(int[] l1, int[] l2){ // [2,4,3] revers => [3,4,2] => 342
        StringBuilder number1 = new StringBuilder();
