@@ -6,17 +6,19 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         // "print Square !! "
-        for (int i = 1; i <=4 ; i++) {
-            for (int j = 1; j <=4 ; j++) {
-                if(i == 1 || i == 4 || j == 1 || j == 4) {
-                    System.out.print("*");
-                }
-                else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-        }
+//        for (int i = 1; i <=4 ; i++) {
+//            for (int j = 1; j <=4 ; j++) {
+//                if(i == 1 || i == 4 || j == 1 || j == 4) {
+//                    System.out.print("*");
+//                }
+//                else {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
 //        int[] nums = new int[] {2,4,3,6,5};
 //        SelectionSort(nums);
 //        System.out.println(Arrays.toString(nums));
@@ -48,6 +50,15 @@ public class Main {
 //                System.out.println(key+":"+value);
 //            }
 //        }
+        for (int i = 1; i <=5; i++) {
+            for (int j = 1; j <=5 -i ; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2*i - 1) ; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
     public static void quickSort(int[] nums, int low, int high){
         if (low < high){
