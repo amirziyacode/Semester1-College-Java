@@ -2,8 +2,8 @@ package org.example;
 
 public class ConvertHEX {
     public static void main(String[] args) {
-        NumberToHex(254);
-        System.out.println(hexToDecimal("FE"));
+//        NumberToHex(254);
+//        System.out.println(hexToDecimal("FE"));
     }
 
     private static void NumberToHex(int number) {
