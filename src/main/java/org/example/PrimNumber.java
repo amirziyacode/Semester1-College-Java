@@ -5,7 +5,7 @@ package org.example;
 public class PrimNumber {
 
     public static void main(String[] args) {
-        System.out.println(isPrimNumber(13));
+        System.out.println();
     }
 
     private static boolean isPrimNumber(int n) {
