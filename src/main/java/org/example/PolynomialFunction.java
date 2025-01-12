@@ -2,7 +2,6 @@ package org.example;
 
 public class PolynomialFunction {
     public static void main(String[] args) {
-        printPolynomial(4);
     }
 
     private static void printPolynomial(int n) {
